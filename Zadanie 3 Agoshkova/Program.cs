@@ -11,6 +11,7 @@ namespace Zadanie_3_Agoshkova
         static void Main(string[] args)
         {
             Console.Write("Введите сумму вклада: ");
+            //
             double money = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите проценты: ");
             int p = Convert.ToInt32(Console.ReadLine());
